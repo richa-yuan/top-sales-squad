@@ -1,0 +1,30 @@
+{
+  "name": "top-sales-squad",
+  "description": "顶级sales团 —— 十五年跨行业销售专家团，覆盖互联网、AI、智能制造、高校科研与新兴赛道，从线索挖掘到签单的全流程作战",
+  "description_en": "Top Sales Squad — a 15-year cross-industry sales expert team covering internet, AI, smart manufacturing, higher education and emerging tracks, from lead mining to signed deal.",
+  "owner": {
+    "name": "richa-yuan",
+    "email": "richa-yuan@users.noreply.github.com"
+  },
+  "metadata": {
+    "version": "1.1.0"
+  },
+  "plugins": [
+    {
+      "name": "sales-expert",
+      "description": "顶级销售天团坐镇，互联网、AI、智能制造、高校与新兴赛道全覆盖，从线索挖掘到签单的全流程作战。",
+      "description_en": "An elite sales squad covering internet, AI, smart manufacturing, higher education and emerging tracks — from lead mining to signed deal.",
+      "version": "1.1.0",
+      "source": "./plugins/sales-expert",
+      "license": "MIT",
+      "category": "sales",
+      "author": {
+        "name": "richa-yuan"
+      },
+      "homepage": "https://github.com/richa-yuan/top-sales-squad",
+      "skills": [
+        "./plugins/sales-expert/skills/sales-playbook"
+      ]
+    }
+  ]
+}

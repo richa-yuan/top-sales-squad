@@ -1,0 +1,150 @@
+{
+  "name": "sales-expert",
+  "version": "1.1.0",
+  "description": "A veteran sales commander with 15 years across internet, AI, smart manufacturing, higher education and emerging categories — covering prospecting, diagnosis, pricing, negotiation and channel build-out.",
+  "author": {
+    "name": "richa-yuan",
+    "email": "richa-yuan@users.noreply.github.com"
+  },
+  "agents": [
+    "./agents/sales-expert-team-lead.md",
+    "./agents/general-sales-expert.md",
+    "./agents/internet-sales-expert.md",
+    "./agents/ai-sales-expert.md",
+    "./agents/manufacturing-sales-expert.md",
+    "./agents/university-sales-expert.md",
+    "./agents/procurement-expert.md",
+    "./agents/channel-sales-expert.md",
+    "./agents/startup-sales-expert.md"
+  ],
+  "skills": ["./skills/sales-playbook"],
+
+  "expertType": "team",
+  "agentName": "sales-expert-team-lead",
+  "teamInfo": {
+    "leadAgent": "sales-expert-team-lead",
+    "memberAgents": [
+      "general-sales-expert",
+      "internet-sales-expert",
+      "ai-sales-expert",
+      "manufacturing-sales-expert",
+      "university-sales-expert",
+      "procurement-expert",
+      "channel-sales-expert",
+      "startup-sales-expert"
+    ]
+  },
+
+  "displayName": {
+    "en": "Top Sales Squad",
+    "zh": "顶级sales团"
+  },
+  "profession": {
+    "en": "Top Sales Squad",
+    "zh": "顶级sales团"
+  },
+  "displayDescription": {
+    "en": "An elite sales squad covering internet, AI, smart manufacturing, higher education and emerging tracks — from lead mining to signed deal.",
+    "zh": "顶级销售天团坐镇，互联网、AI、智能制造、高校与新兴赛道全覆盖，从线索挖掘到签单的全流程作战。"
+  },
+  "avatar": "avatars/team.png",
+  "categoryId": "07-SalesCommerce",
+  "defaultInitPrompt": {
+    "zh": "我卖工业AI质检产品，客户是一家汽车零部件厂，帮我做一份从线索挖掘到签约的全流程打法",
+    "en": "I sell an industrial AI visual inspection product to an auto parts manufacturer. Build me a full-cycle playbook from lead mining to signed contract."
+  },
+  "plugin": "sales-expert",
+  "tags": [
+    { "en": "Enterprise B2B Sales", "zh": "乙方大客户销售" },
+    { "en": "Pricing & Negotiation", "zh": "定价与商务谈判" },
+    { "en": "Channel & GTM Build-up", "zh": "渠道分销与拓客" }
+  ],
+  "quickPrompts": [
+    {
+      "en": "I sell an industrial AI visual inspection product to an auto parts manufacturer. Build me a full-cycle playbook from lead mining to signed contract.",
+      "zh": "我卖工业AI质检产品，客户是一家汽车零部件厂，帮我做一份从线索挖掘到签约的全流程打法"
+    },
+    {
+      "en": "The client says \"it's too expensive, and there's a free alternative\". Break down this objection and give me negotiation scripts I can actually use.",
+      "zh": "客户说\"价格太贵了，还有免费的替代品\"，帮我拆解这个异议并给出能直接用的谈判话术"
+    },
+    {
+      "en": "I'm selling a research data platform to a university's IT office. Map out the decision chain, procurement process and bidding strategy.",
+      "zh": "我要向高校信息处卖一套科研数据平台，帮我梳理决策链、采购流程和招投标策略"
+    }
+  ],
+  "members": [
+    {
+      "id": "sales-expert-team-lead",
+      "name": { "en": "Guan", "zh": "关大成" },
+      "displayName": { "en": "Guan", "zh": "关大成" },
+      "profession": { "en": "Sales Commander", "zh": "销售作战总指挥" },
+      "avatar": "avatars/sales-expert-team-lead.png",
+      "role": "lead"
+    },
+    {
+      "id": "general-sales-expert",
+      "name": { "en": "Zhou", "zh": "周万金" },
+      "displayName": { "en": "Zhou", "zh": "周万金" },
+      "profession": { "en": "Cross-Industry Sales Veteran", "zh": "全行业销售老兵" },
+      "avatar": "avatars/general-sales-expert.png",
+      "role": "member"
+    },
+    {
+      "id": "internet-sales-expert",
+      "name": { "en": "Gu", "zh": "谷雨生" },
+      "displayName": { "en": "Gu", "zh": "谷雨生" },
+      "profession": { "en": "Internet Growth Operator", "zh": "互联网增长操盘手" },
+      "avatar": "avatars/internet-sales-expert.png",
+      "role": "member"
+    },
+    {
+      "id": "ai-sales-expert",
+      "name": { "en": "Qiu", "zh": "邱智译" },
+      "displayName": { "en": "Qiu", "zh": "邱智译" },
+      "profession": { "en": "AI Solutions Sales Advisor", "zh": "AI方案销售顾问" },
+      "avatar": "avatars/ai-sales-expert.png",
+      "role": "member"
+    },
+    {
+      "id": "manufacturing-sales-expert",
+      "name": { "en": "Meng", "zh": "孟长单" },
+      "displayName": { "en": "Meng", "zh": "孟长单" },
+      "profession": { "en": "Industrial Account Specialist", "zh": "工业大单销售专家" },
+      "avatar": "avatars/manufacturing-sales-expert.png",
+      "role": "member"
+    },
+    {
+      "id": "university-sales-expert",
+      "name": { "en": "Song", "zh": "宋育才" },
+      "displayName": { "en": "Song", "zh": "宋育才" },
+      "profession": { "en": "Academic Procurement Specialist", "zh": "高校科研采购专家" },
+      "avatar": "avatars/university-sales-expert.png",
+      "role": "member"
+    },
+    {
+      "id": "procurement-expert",
+      "name": { "en": "Zou", "zh": "邹权衡" },
+      "displayName": { "en": "Zou", "zh": "邹权衡" },
+      "profession": { "en": "Procurement & Vendor Selection Advisor", "zh": "甲方采购选型专家" },
+      "avatar": "avatars/procurement-expert.png",
+      "role": "member"
+    },
+    {
+      "id": "channel-sales-expert",
+      "name": { "en": "Wang", "zh": "汪开渠" },
+      "displayName": { "en": "Wang", "zh": "汪开渠" },
+      "profession": { "en": "Channel & Distribution Operator", "zh": "渠道体系操盘手" },
+      "avatar": "avatars/channel-sales-expert.png",
+      "role": "member"
+    },
+    {
+      "id": "startup-sales-expert",
+      "name": { "en": "Lu", "zh": "陆破零" },
+      "displayName": { "en": "Lu", "zh": "陆破零" },
+      "profession": { "en": "Zero-to-One GTM Operator", "zh": "0-1商业化操盘手" },
+      "avatar": "avatars/startup-sales-expert.png",
+      "role": "member"
+    }
+  ]
+}

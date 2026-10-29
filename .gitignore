@@ -1,0 +1,7 @@
+.DS_Store
+*.zip
+*.log
+node_modules/
+__pycache__/
+.idea/
+.vscode/
